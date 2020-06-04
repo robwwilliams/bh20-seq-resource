@@ -48,8 +48,8 @@ expressed in a [[https://github.com/arvados/bh20-seq-resource/blob/master/bh20se
           _id: http://purl.obolibrary.org/obo/PATO_0000011
 #+end_src
 
-this metadata gets transformed into an RDF database which means
-information can easily be fetched related to uploaded sequences.
+These metadata get transformed into an RDF database which means
+information can easily be fetched and related to uploaded sequences.
 We'll show an example below where we query a live database.
 
 There is more: when a new sequence gets uploaded COVID-19 PubSeq kicks
