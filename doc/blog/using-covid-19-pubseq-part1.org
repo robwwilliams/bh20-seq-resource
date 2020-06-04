@@ -48,16 +48,16 @@ expressed in a [[https://github.com/arvados/bh20-seq-resource/blob/master/bh20se
           _id: http://purl.obolibrary.org/obo/PATO_0000011
 #+end_src
 
-this metadata gets transformed into an RDF database which means
-information can easily be fetched related to uploaded sequences.
+These metadata get transformed into an RDF database which means
+information can easily be fetched and related to uploaded sequences.
 We'll show an example below where we query a live database.
 
-There is more: when a new sequence gets uploaded COVID-19 PubSeq kicks
-in with a number of workflows running in the cloud. These workflows
+There is more: when a new sequence is uploaded COVID-19 PubSeq kicks
+and automatically initiates a number of workflows running in the cloud. These workflows
 generate a fresh variation graph (GFA) containing all sequences, an
 RDF file containing metadata, and an RDF file containing the variation
-graph in triples. Soon we will at multi sequence alignments (MSA) and
-more. Anyone can contribute data, tools and workflows to this
+graph in triples. Soon we will add multi sequence alignments (MSA) and
+other features. Anyone can contribute data, tools, and workflows to this
 initiative!
 
 
